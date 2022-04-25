@@ -47,6 +47,7 @@ body {
 
 #search::placeholder {
   color: white;
+  padding-left: 10px;
 }
 
 #btnSubmit {
