@@ -13,7 +13,7 @@ form.addEventListener("submit",(e)=>{
   +: en conjunto con \s sirve para tomar espacios consecutivos.
   g: permite repetir el proceso a lo largo del string o cadena, sino se eliminaría el primer espacio encontrado */
 
-  let nombrePokemon = input.value.replace(/\s+/g, '');
+  let nombrePokemon = input.value.replace(/\s+/g, '').toLowerCase();
 
   obtenerPokemon(nombrePokemon);
   input.value = '';
